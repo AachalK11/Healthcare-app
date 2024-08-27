@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: hkseal/health-app-streamlit:latest
+        image: aachalkhambekar/health-app-streamlit
         resources:
           limits:
             memory: "128Mi"
